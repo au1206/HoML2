@@ -64,7 +64,7 @@ df = pd.DataFrame(history.history)
 df.plot(figsize=(8, 5))
 plt.grid(True)
 plt.gca().set_ylim(0, 1)  # setting range for y
-plt.savefig('classifier_plot.png')
+plt.savefig('./classifier_plot.png')
 print(df.head())
 
 
